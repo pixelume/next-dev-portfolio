@@ -16,7 +16,13 @@
   }
 }
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
